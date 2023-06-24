@@ -1,0 +1,409 @@
+*,*::after,*::before{
+    margin:0;
+}
+
+html *{
+    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;    
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    padding: 10px 40px;
+    border-bottom: 2px black;
+}
+.wrapper{
+    padding:20px;
+    display:flex;
+    align-items: center;   
+}
+
+li{
+    list-style-type:none;
+}
+
+nav>li{
+    
+    margin: 5px;
+    padding:5px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.li-margin{
+    margin-left: 30px;
+}
+
+li:nth-child(10){
+    margin-left: auto;
+    color:#0000ff;
+}
+
+.main>nav{
+    display: flex;
+    gap:2rem;
+    padding:20px 30px;
+    background: rgba(255, 255, 255, 0.85);
+
+    position: sticky;
+    top:0px;
+    z-index:10;
+}
+
+
+.active{
+    color: #ff764d;
+    font-weight: bold;
+}
+
+.background{
+    background-image: url("/Assets/header.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 125px;
+    padding: 175px 0px;
+}
+
+.background>h1{
+    text-align: center;
+    font-size: 7.5rem;
+    color: #ff764d;
+}
+
+.headline{
+    margin: 100px 300px;
+    font-size: 1.5rem;
+}
+
+.headline>h3>span{
+    color: #0000ff;
+}
+
+.headline>h4{
+    margin-top: 30px;
+    font-weight: lighter;
+    font-size: 1.25rem;
+}
+
+.back-color{
+    position:absolute;
+    background-color: #fbffa7;
+    width: 58.75vw;
+    height: 120vh;
+    margin-left:40vw;
+}
+
+.image-one{
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;;
+    margin-left:125px;
+    padding:20vw;
+    background-image: url("./Assets/photo-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.image-two{
+    position: relative;
+    display: inline-block;
+    margin-left:100px;
+    margin-top:100px;
+    padding:15vw;
+    background-image: url("./Assets/photo-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.two{
+    margin-top: 200px;
+}
+
+.video{
+    margin:0px 300px;
+}
+
+.back{
+    background-image: url("./Assets/poster-juanpe.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding:175px;
+}
+
+.playbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    position:relative;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background: #0000ff;
+    display: flex;
+    align-items: center;
+}
+
+.triangle{
+    position: absolute;
+    left:40px;
+    width:0;
+    height:0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid white;
+}
+
+.video>h6{
+    padding: 10px;
+}
+
+.collage-two{
+    position:relative;
+}
+
+.back-color-two{
+    position:absolute;
+    background-color: #b6ffc0;
+    width: 58.75vw;
+    height: 160vh;
+    margin-left:0vw;
+    z-index: 0;
+}
+
+.image-group{
+    display: inline-block;
+}
+.number-one{
+    position:absolute;
+    margin:100px;
+    background-image: url("./Assets/photo-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:130px;
+    padding:175px;
+    z-index: 1;
+}
+
+.number-two{
+    position:absolute;
+    margin:600px 100px;
+    background-image: url("./Assets/photo-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:130px;
+    padding:175px;
+    z-index: 1;
+}
+
+.number-three{
+    position: absolute;
+    background-image: url("./Assets/photo-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 300px;
+    margin-left: 50vw;
+    width:  80px;
+    padding:250px;
+    z-index: 2;
+}
+
+.four{
+    margin-top: 1100px;
+}
+
+.charts{
+    margin-left: 100px;
+    margin-right:100px;
+    background: url("./Assets/poster-meet-the-makers.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:300px;
+}
+
+.background-last{
+    position: relative;
+    background-color:#d5b3ff ;
+    width:65vw;
+    height:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meeting-one{
+    position: absolute;
+    margin-top:25%;
+    margin-left:-100px;
+    background-image: url("./Assets/photo-6-a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:120px;
+    padding:180px;
+}
+
+.meeting-two{
+    position: absolute;
+    margin-top:10%;
+    margin-left:50%;
+    background-image: url("./Assets/photo-7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:49.25vw;
+    padding-top:300px;
+    padding-bottom:300px;
+}
+.job-listings{
+    position:relative;
+    margin: 0 100px;
+    width:80vwx;
+    height: 500px;
+    display: flex;
+
+}
+.interview-image{
+    position:relative;
+    background-image: url("./Assets/photo-8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width:50%;
+    margin-bottom: 200px;
+}
+
+.quote{
+    background: #b1c5ff;
+    width:50%;
+    height:100%;
+}
+
+.quote>p{
+    padding: 150px 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.quote>p>span{
+    color: #0000ff;
+}
+
+.main{
+    padding-bottom: 100px;
+    border-top:2px solid lightgray;
+    border-bottom:2px solid lightgray;
+}
+
+footer{
+    padding:100px;
+    font-size: 1.25rem;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 3fr 4fr 5fr;
+    gap:50px;
+    padding-bottom:100px;
+    
+}
+
+.name{
+    grid-column: 1 / span 3;
+    font-size: 1.75rem;
+}
+
+.connect{
+    padding-top:10px;
+    display: flex;
+    gap:10px;
+}
+.facebook{
+    background-color: #0165E1;
+}
+.twitter{
+    background-color: #00ACEE;
+}
+.youtube{
+    background-color: #FF0000;
+}
+
+.instagram{
+    background-color: #F77737;
+}
+.connect>div{
+    width:40px;
+    height:40px;
+}
+
+.connect>div>svg{
+    background-repeat: no-repeat;
+    width:inherit;
+    height:inherit;
+}
+
+.signup-group{
+    display: flex;
+    gap:0px;
+    margin-top:20px;
+}
+.signup-group>input{
+    width:70%;
+    height:30px;
+    border:none;
+    border-radius: none;
+    background: #eee;
+    margin: none;
+    padding: .4em 0.75em;
+    font-size: 1rem;
+}
+
+.signup-group>button{
+    height:43px;
+    padding:0;
+    margin:0;
+    width:30%;
+    background-color: #0000ff;
+    border:none;
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.select-group{
+    display: flex;
+    width:inherit;
+    gap:2px;
+    margin-top:10px;
+}
+
+.language-select{
+    width:30%;
+    height:30px;
+    background: #eee;
+    border:none;
+}
+
+.country-select{
+    width:70%;
+    height:30px;
+    background: #eee;
+    border:none;
+}
+
+.footer-flex{
+    display: flex;
+    gap:10px;
+    font-size: 0.85rem;
+    align-items: center;
+}
+
+.move-to-right{
+    margin-left: auto;
+}
+
+li{
+    cursor:pointer;
+}
